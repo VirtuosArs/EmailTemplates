@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="470px" viewBox="0 0 600 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>MAKAR SANKRANTI Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="246.844868%" x2="114.429915%" y2="246.844864%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#ECECEC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="37.1595372%" y1="63.7209302%" x2="128.142077%" y2="-3.25581395%" id="linearGradient-2">
+            <stop stop-color="#5D33E5" offset="0%"></stop>
+            <stop stop-color="#58A1FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="EMAILER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MAKAR-SANKRANTI-Copy-2">
+            <g id="KITE" transform="translate(-41.000000, 3.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Shape" stroke-width="2" fill="#58A1FF" fill-rule="nonzero" points="458.690426 52.5492537 503.388298 52.5492537 503.388298 0.107462687 451.061702 0.107462687 451.061702 44.919403"></polyline>
+                <polygon id="Shape" stroke-width="2" fill="#FE5068" fill-rule="nonzero" points="458.690426 68.4537313 458.690426 44.919403 435.052128 44.919403"></polygon>
+                <g id="Group" transform="translate(458.797872, 0.000000)" stroke-width="2">
+                    <path d="M44.5904255,0.107462687 L0,44.8119403" id="Shape"></path>
+                    <path d="M44.5904255,44.8119403 C44.5904255,20.2029851 24.6053191,0.214925373 0,0.214925373" id="Shape"></path>
+                </g>
+                <ellipse id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(467.071320, 15.800454) rotate(-45.000000) translate(-467.071320, -15.800454) " cx="467.07132" cy="15.8004537" rx="6.76908402" ry="6.77008433"></ellipse>
+                <ellipse id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(487.821512, 36.508943) rotate(-45.000000) translate(-487.821512, -36.508943) " cx="487.821512" cy="36.5089433" rx="6.76908402" ry="6.77008433"></ellipse>
+                <path d="M446.871277,56.6328358 L0.644680851,503.785075" id="Shape" stroke-width="2"></path>
+            </g>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="196" cy="266" r="59"></circle>
+            <g id="3-lines" transform="translate(485.000000, 245.000000)" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-width="2">
+                <path d="M0,8.00097656 L27.2490234,0" id="Path-2"></path>
+                <path d="M0,45.0009766 L27.2490234,37" id="Path-2-Copy" transform="translate(13.624512, 41.000488) scale(-1, 1) translate(-13.624512, -41.000488) "></path>
+                <path d="M0.681034483,22.5 L28.4300579,22.5" id="Path-3"></path>
+            </g>
+            <g id="3-lines" transform="translate(106.500000, 261.000000) scale(-1, -1) translate(-106.500000, -261.000000) translate(92.000000, 238.000000)" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-width="2">
+                <g id="Group-Copy" transform="translate(14.500000, 23.000000) scale(1, -1) translate(-14.500000, -23.000000) ">
+                    <path d="M0,8.00097656 L27.2490234,0" id="Path-2"></path>
+                    <path d="M0,45.0009766 L27.2490234,37" id="Path-2-Copy" transform="translate(13.624512, 41.000488) scale(-1, 1) translate(-13.624512, -41.000488) "></path>
+                    <path d="M0.681034483,22.5 L28.4300579,22.5" id="Path-3"></path>
+                </g>
+            </g>
+            <text id="+" font-family="Hind-Medium, Hind" font-size="130" font-weight="400" letter-spacing="6" fill="#44B3D2">
+                <tspan x="161.68" y="310">+</tspan>
+            </text>
+            <text id="DESIGN-TECH-Copy" fill="url(#linearGradient-2)" font-family="Khand-Semibold, Khand" font-size="130" font-weight="500" line-spacing="115" letter-spacing="6">
+                <tspan x="115" y="239">DESIG</tspan>
+                <tspan x="405.65" y="239">N</tspan>
+                <tspan x="249.13" y="354">TECH</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

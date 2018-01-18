@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="268px" viewBox="0 0 363 268" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>MAKAR SANKRANTI Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="EMAILER" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MAKAR-SANKRANTI-Copy">
+            <g id="Group-2" transform="translate(-193.000000, 168.000000)" fill="#ECECEC" font-family="Khand-Regular, Khand" font-size="45.6" font-weight="normal">
+                <text id="STUDIO">
+                    <tspan x="40.7185629" y="69.65625">STUDIO</tspan>
+                </text>
+            </g>
+            <g id="KITE-Copy-2" transform="translate(126.000000, 143.000000) scale(-1, 1) rotate(-17.000000) translate(-126.000000, -143.000000) translate(25.000000, 42.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Shape" stroke-width="2" fill="#58A1FF" fill-rule="nonzero" points="103.620123 115 201 115 201 0 87 0 87 98.2684426"></polyline>
+                <polygon id="Shape" stroke-width="2" fill="#FE5068" fill-rule="nonzero" points="104 149 104 98 52 98"></polygon>
+                <g id="Group" transform="translate(104.000000, 0.000000)" stroke-width="2">
+                    <path d="M97.1080378,0.234029851 L0,97.5904478" id="Shape"></path>
+                    <path d="M97.1080378,97.5904478 C97.1080378,43.9976119 53.5849173,0.468059701 0,0.468059701" id="Shape"></path>
+                </g>
+                <circle id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(123.000000, 35.000000) rotate(-45.000000) translate(-123.000000, -35.000000) " cx="123" cy="35" r="15"></circle>
+                <circle id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(168.000000, 80.000000) rotate(-45.000000) translate(-168.000000, -80.000000) " cx="168" cy="80" r="15"></circle>
+                <path d="M78.3076095,124 L0.344587694,201.963022" id="Shape" stroke-width="2"></path>
+            </g>
+            <g id="KITE-Copy" transform="translate(248.500000, 152.500000) rotate(-15.000000) translate(-248.500000, -152.500000) translate(207.000000, 111.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                <polyline id="Shape" stroke-width="2" fill="#58A1FF" fill-rule="nonzero" points="28.3932341 62.9808554 81.964123 62.9808554 81.964123 0.128795205 19.2501257 0.128795205 19.2501257 53.8363958"></polyline>
+                <polygon id="Shape" stroke-width="2" fill="#FE5068" fill-rule="nonzero" points="28.3932341 82.0425458 28.3932341 53.8363958 0.0624755702 53.8363958"></polygon>
+                <g id="Group" transform="translate(28.522010, 0.000000)" stroke-width="2">
+                    <path d="M53.4421127,0.128795205 L0,53.7076006" id="Shape"></path>
+                    <path d="M53.4421127,53.7076006 C53.4421127,24.2134986 29.4897441,0.257590411 0,0.257590411" id="Shape"></path>
+                </g>
+                <ellipse id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(38.437827, 18.937017) rotate(-45.000000) translate(-38.437827, -18.937017) " cx="38.4378273" cy="18.9370166" rx="8.11282124" ry="8.11402012"></ellipse>
+                <ellipse id="Oval" stroke-width="1.99998082" fill="#FE5068" fill-rule="nonzero" transform="translate(63.307160, 43.756368) rotate(-45.000000) translate(-63.307160, -43.756368) " cx="63.3071595" cy="43.7563679" rx="8.11282124" ry="8.11402012"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

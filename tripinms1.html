@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TripIn MS</title>
+    <link href="https://fonts.googleapis.com/css?family=Khand:400,600" rel="stylesheet">
+    <style>
+        /* .section1 {
+            background: #3be2cc;
+            background: -moz-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, #ff6600), color-stop(25%, rgba(255, 102, 0, 0.92)), color-stop(70%, rgba(189, 24, 112, 0.78)), color-stop(100%, rgba(189, 24, 112, 0.68)));
+            background: -webkit-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+            background: -o-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+            background: -ms-linear-gradient(-45deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+            background: linear-gradient(135deg, #ff6600 0%, rgba(255, 102, 0, 0.92) 25%, rgba(189, 24, 112, 0.78) 70%, rgba(189, 24, 112, 0.68) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6600', endColorstr='#bd1870', GradientType=1);
+        } */
+
+        @font-face {
+            font-family: 'Khand';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.googleapis.com/css?family=Khand:400,600) format('woff');
+        }
+
+        .section1 {
+            background: #3be2cc;
+            background: -webkit-linear-gradient(to top right, #3be2cc, #3ed5ce, #41c6d0, #4e82da, #5d33e5);
+            background: -o-linear-gradient(to top right, #3be2cc, #3ed5ce, #41c6d0, #4e82da, #5d33e5);
+            background: -moz-linear-gradient(to top right, #3be2cc, #3ed5ce, #41c6d0, #4e82da, #5d33e5);
+            background: linear-gradient(to bottom, #3be2cc, #3ed5ce, #41c6d0, #4e82da, #5d33e5);
+            /* height: 240px; */
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .bottom-left {
+            position: absolute;
+            bottom: -12px;
+            left: 25%;
+            text-align: left;
+        }
+
+        .head1 {
+            font-family: Khand;
+            font-size: 130px;
+            /* letter-spacing: 6; */
+            margin: 0;
+            /* color: -webkit-linear-gradient(left, #5d33e5, #58a1ff); */
+        }
+
+        h1 {
+            margin: 0;
+            background: -webkit-linear-gradient(#5d33e5, #58a1ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-margin-before: 0em;
+            -webkit-margin-after: 0em;
+            -webkit-margin-start: 0px;
+            -webkit-margin-end: 0px;
+        }
+
+        .h11 {
+            margin-top: 5rem;
+        }
+
+        .h12 {
+            margin-top: -6rem;
+            text-align: right;
+        }
+
+
+        p {
+            color: #fff;
+            font-family: Khand;
+            font-size: 26px;
+            font-weight: 600;
+            margin-left: -14px;
+        }
+
+        .logo {
+            width: 70px;
+            height: 70px;
+            padding-left: 33px;
+            padding-top: 32px;
+        }
+
+        .vs {
+            text-decoration: none;
+            cursor: pointer;
+            color: #fff;
+            text-align: center;
+            padding-left: 9px;
+        }
+
+        .nav-link1 {
+            /* position: fixed;
+            right: 5rem;
+            top: 5rem; */
+            z-index: 101;
+            width: 202px;
+            height: 36px;
+            margin-bottom: 5rem;
+            background: #000;
+            /* background: linear-gradient(to left, #fe5068, #5d33e5, #1cc19c); */
+            /* color: white !important; */
+            color: #ececec !important;
+            font-family: Khand;
+            font-size: 24px;
+            padding: 3px;
+        }
+
+        .nav-link1:before {
+            /* position: absolute; */
+            z-index: -2;
+            margin-bottom: 5rem;
+            /* top: -11%;
+            left: -3%; */
+            width: 100%;
+            height: 100%;
+            background: black;
+            content: '';
+        }
+
+        .vwb {
+            padding-left: 132px;
+            padding-right: 266px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .wbutton {
+            width: 202px;
+            height: 39px;
+            background: #000;
+            color: #ececec !important;
+            font-family: Khand;
+            font-size: 24px;
+            padding: 3px;
+            border: none;
+            margin-top: 25px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            background: #5150D8;
+            color: #fff;
+        }
+
+        /* http://tripin.co.in/images/logo.svg */
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+    <table align="left" border="0" cellpadding="0" cellspacing="0" width="600" height="auto" style="border-collapse: collapse;">
+        <tr>
+            <td class="section1">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td>
+                            <img class="logo" src="http://tripin.co.in/images/logo1w.svg" alt="" width="50" height="50" style="display: block;" />
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td>
+                            <div class="container">
+                                <img src="http://tripin.co.in/images/head1.svg" alt="" width="600" height="450" style="display: block;" />
+                                 <div class="bottom-left"> 
+                                    <!-- <h1 class="head1 h11">
+                                        DESIGN
+                                    </h1>
+                                    <h1 class="head1 h12">
+                                        TECH
+                                    </h1> -->
+                                    <p>
+                                    Kyun ki har woh udta kagaz patang <br> nahi kehlata.
+                                    </p>
+                                </div> 
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td class="vwb">
+                            <!-- <img src="https://placehold.it/150x150" alt="" width="150" height="150" style="display: block;" /> -->
+                            <!-- <div class='nav-link1 text-center' id="contactus"> -->
+                            <button class="wbutton">
+                                <a href="http://tripin.co.in" class="vs">VISIT THE WEBSITE</a>
+                            </button>
+                            <!-- </div> -->
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td width="260" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="http://tripin.co.in/images/ts1.svg" alt="" width="241" height="150" style="display: block; padding-top: 150px" class="ts1" />
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+                        <td style="font-size: 0; line-height: 0;" width="20">
+                            &nbsp;
+                        </td>
+                        <td width="260" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td>
+                                        <img src="http://tripin.co.in/images/bk1.svg" alt="" width="300" height="230" style="display: block; margin-top: 72px" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                        
+                    </tr>
+                </table>
+                <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tr>
+                        <td valign="center" height="63" width="600" class="footer">
+                            If you think you are receiving this by mistake, you may
+                            <a href="#" class="footer">
+                                <unsubscribe>unsubscribe</unsubscribe>
+                        </td>
+                    </tr>
+                </table> -->
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
